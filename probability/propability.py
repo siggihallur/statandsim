@@ -94,6 +94,11 @@ D = {1, 3, 4}
 def myBinom(n, k):
     diff = n - k
     return math.factorial(n) / (math.factorial(k) * math.factorial(diff))
+#print(13 * 12 * myBinom(13, 2) * math.factorial(11))
+
+# Addisjonregelen   P(A1 union A2 union A3 ..... = P(A1) + P(A2)...
+# Subtraksjonregelen P(A\B) = P(A) - P(A snitt B)
+# A = (A\B) + P(A snitt B)  gjensidig utelukkende => P(A) = P(A\B) + P(A snitt B)
 
 
-print(13 * 12 * myBinom(13, 2) * math.factorial(11))
+
