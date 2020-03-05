@@ -100,5 +100,6 @@ def myBinom(n, k):
 # Subtraksjonregelen P(A\B) = P(A) - P(A snitt B)
 # A = (A\B) + P(A snitt B)  gjensidig utelukkende => P(A) = P(A\B) + P(A snitt B)
 
+A = {1, 2, 3, 4, 5, 6}
 
 
